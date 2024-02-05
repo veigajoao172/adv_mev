@@ -1,0 +1,234 @@
+body{
+    background-color: rgb(186, 186, 186);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+    
+}
+
+header{
+    padding: 12px;
+    background-color: black; 
+}
+
+.container nav ul li a{
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.container nav li{
+    list-style: none;
+}
+.container{
+    margin:0 auto;
+    max-width: 1280px;
+    width: 100%;
+}
+
+header .container{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.container img{
+    height: 50px;
+}
+
+.container ul{
+    padding: 0;
+    display: flex;
+    gap:24px;
+}
+
+.container ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+.container ul li a:hover{
+    color: gold;
+}
+
+
+/* --- INICIO PARTE LATERAL---*/
+
+#body{
+    display: flex;
+}
+
+aside img{
+    max-width: 300px;
+}
+
+.aside{
+    color: white;
+    max-width: 350px;
+    padding: 0 28px;
+    font-family: 'Noto Sans', sans-serif;
+    background-color:black;
+    align-items: center;
+    height: 100%;
+}
+.aside h1{
+    margin: 0px;
+}
+
+.aside h2{
+    font-size:14px;
+    font-style: bold;
+}
+
+.aside p{
+    max-height: 250px;
+}
+
+.aside nav ul li{
+    list-style: none;
+    margin: 3px 0;
+    padding: 0;
+
+}
+
+.aside nav ul{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.aside input{
+    width: 280px;
+    font-weight: bold;
+}
+.opcoes{
+    width: 290px;
+    padding: 3px;
+    border: 0;
+}
+#coment{
+    width: 280px;
+    resize: none;
+    height: 75px;
+}
+.aside button{
+    margin-top: 10px;
+    padding: 10px;
+    width: 320px;
+    color: white;
+    background-color: #5999f3;
+    border: none;
+    font-size:18px;
+}
+
+button:hover{
+    background-color: #396cb3;
+}
+
+/* --- Inicio Section Corpo --- */
+
+.port{
+    display: flex;
+}
+
+.port h6{
+    margin: 0;
+    padding: 50px 30px 0px 20px;
+    font-size: 24px;
+    max-width: 700px;
+}
+
+.port img, .tribut img{
+    padding: 50px 0 50px 50px;
+    width: 750px;
+    box-sizing: border-box;
+}
+
+.text{
+    display: block;
+}
+
+.port .text p{
+    margin: 0;
+    padding: 0 30px 0 20px;
+    font-size: 18px;
+}
+
+.port button {
+    padding: 30px 30px 0 20px;
+    background-color:rgb(186, 186, 186);
+    align-items: start;
+    border: none;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.port button:hover{
+    color: azure;
+}
+
+.tribut{
+    display: flex;
+}
+
+.tribut h6{
+    margin: 0;
+    font-size: 24px;
+    max-width: 700px;
+    padding: 50px 30px 0px 20px;
+}
+
+.tribut p{
+    margin: 0;
+    font-size: 18px;
+    padding: 0 30px 0 20px;
+}
+
+.tribut button {
+    padding: 30px 30px 0 20px;
+    background-color:rgb(186, 186, 186);
+    align-items: start;
+    border: none;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.tribut button:hover{
+    color: azure;
+}
+
+footer{
+    display: flex;
+    margin: 0;
+    padding: 0 30px 0;
+    text-align: start;
+    bottom:0;
+    background:black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size:18px;
+}
+
+.footer{
+    display: flex;
+}
+
+.footer p{
+    padding-right:100px;
+}
+
+.textft{
+    display: flex;
+    align-content: center;
+}
+
+.textft p{
+    padding: 0 20px 0 0;
+}
+.ftfooter img{
+    height: 25px;
+    padding: 10px;
+}
